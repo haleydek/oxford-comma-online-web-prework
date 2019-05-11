@@ -8,6 +8,6 @@ def oxford_comma(array)
     when x == 3
       array[0..1].join(", ") + ", and " + array.last
     when x > 3
-      array[0..(x - 1)].join(", ") + ", and " + array.last
+      array[0..(x - 2)].join(", ") + ", and " + array.last
   end
 end
